@@ -13,7 +13,7 @@ class LoggerFacade {
  * @param {string} options.apiKey - API key for Datadog.
  * @param {string} options.serviceName - Service name for Datadog.
  * 
- * @returns {Object} A instância configurada para envio de logs ao Datadog.
+ * @returns {Object} the logger object, used to send logs to datadog
  * 
  * @example
  * const loggerFacade = require('@tadev77/logger-facade');
