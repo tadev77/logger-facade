@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tadev77/logger-facade#readme",
   "dependencies": {
+    "@tadev77/logger-facade": "^1.0.1",
     "newrelic": "^12.16.1",
     "winston": "^3.17.0"
   },
