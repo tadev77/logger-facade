@@ -1,0 +1,31 @@
+{
+  "name": "@tadev77/logger-facade",
+  "version": "1.0.0",
+  "description": "simple logger facade",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadev77/logger-facade.git"
+  },
+  "author": "Tadeu Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tadev77/logger-facade/issues"
+  },
+  "homepage": "https://github.com/tadev77/logger-facade#readme",
+  "dependencies": {
+    "newrelic": "^12.16.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
+  }
+}
